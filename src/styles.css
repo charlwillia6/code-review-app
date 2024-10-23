@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.review-suggestion-error {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+.review-suggestion-warning {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+.review-suggestion-info {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.suggestion-glyph-error::before {
+  content: '⚠';
+  color: rgb(239, 68, 68);
+}
+
+.suggestion-glyph-warning::before {
+  content: '⚠';
+  color: rgb(245, 158, 11);
+}
+
+.suggestion-glyph-info::before {
+  content: 'ℹ';
+  color: rgb(59, 130, 246);
+}
